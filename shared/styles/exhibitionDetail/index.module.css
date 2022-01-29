@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.generalInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+}
+.generalInfo > h3 {
+    margin-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.generalInfo > p {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.separator {
+    margin: 0 5px;
+}
+
+.backButton {
+    color: #0029FF;
+    cursor: pointer;
+}
+
+.detailInfo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.detailInfo > div {
+    width: 30%;
+    margin-right: 17px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.detailInfo > span {
+    width: 70%;
+}
+
+.detailInfo img {
+    width: 100%;
+}

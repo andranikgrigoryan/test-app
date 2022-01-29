@@ -1,0 +1,40 @@
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 2px 5px 10px #888888;
+    cursor: pointer;
+    height: 370px;
+}
+
+.imgBox {
+    padding: 5px;
+    height: 70%;
+}
+
+.imgBox > img {
+    width: 100%;
+    height: 100%;
+}
+
+.itemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5px;
+    height: 30%;
+}
+
+.itemInfo > span {
+    font-size: 20px;
+}
+
+.itemInfo > div {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.separator {
+    margin: 0 5px;
+}
